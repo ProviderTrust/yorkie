@@ -85,7 +85,7 @@ function installFrom(depDir) {
             hookName: hookName,
             action: createHook(depDir, projectDir, hooksDir, hookName, runnerPath)
           }
-        })
+        }) 
         .forEach(function(item) {
           switch (item.action) {
             case MIGRATE_GHOOKS:

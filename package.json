@@ -1,6 +1,6 @@
 {
   "name": "yorkie-pt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "execa2-compatible githooks management forked from yorkie which was forked from husky",
   "engines": {
     "node": ">=4"
@@ -40,7 +40,6 @@
   "homepage": "https://github.com/yyx990803/yorkie",
   "devDependencies": {
     "jest": "^20.0.4",
-    "lint-staged": "^10.2.11",
     "mkdirp": "^0.5.1",
     "prettier": "^1.4.4",
     "rimraf": "^2.6.1",
