@@ -1,7 +1,7 @@
 {
-  "name": "yorkie",
-  "version": "2.0.0",
-  "description": "githooks management forked from husky",
+  "name": "yorkie-pt",
+  "version": "1.0.3",
+  "description": "execa2-compatible githooks management forked from yorkie which was forked from husky",
   "engines": {
     "node": ">=4"
   },
@@ -46,7 +46,7 @@
     "tempy": "^0.1.0"
   },
   "dependencies": {
-    "execa": "^0.8.0",
+    "execa": "^2.0.1",
     "is-ci": "^1.0.10",
     "normalize-path": "^1.0.0",
     "strip-indent": "^2.0.0"

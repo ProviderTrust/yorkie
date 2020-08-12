@@ -76,7 +76,7 @@ function installFrom(depDir) {
 
     const projectDir = findParent(depDir, 'package.json')
     const hooksDir = findHooksDir(projectDir)
-    const runnerPath = './node_modules/yorkie/src/runner.js'
+    const runnerPath = './node_modules/yorkie-pt/src/runner.js'
 
     if (hooksDir) {
       hooks
@@ -85,7 +85,7 @@ function installFrom(depDir) {
             hookName: hookName,
             action: createHook(depDir, projectDir, hooksDir, hookName, runnerPath)
           }
-        })
+        }) 
         .forEach(function(item) {
           switch (item.action) {
             case MIGRATE_GHOOKS:
